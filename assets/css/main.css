@@ -7043,20 +7043,21 @@ https://www.phpied.com/delay-loading-your-print-css/
   }
 }
 
-.treatment
+.treatment,
+.board_certified
 {
   background: #F8FAFC;
 }
 .treatment-contain
 {
-  padding: 180px 0px;
+  padding: 70px 0px;
 }
 
 .treatment-contain__heading h3
 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 7rem;
+  margin-bottom: 4rem;
 }
 
 .treatment-contain__box
@@ -7143,4 +7144,24 @@ https://www.phpied.com/delay-loading-your-print-css/
   position: relative;
   width: 502px;
   left: 28%;
+}
+
+
+.board-certified__content
+{
+  padding: 70px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.board-certified__content img
+{
+  width: 120px;
+  height: 120px;
+  margin-right: 40px;
+}
+.board-certified__content h3
+{
+  text-transform: uppercase;
+  color: #00406B;
 }
