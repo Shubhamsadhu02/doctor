@@ -7165,3 +7165,80 @@ https://www.phpied.com/delay-loading-your-print-css/
   text-transform: uppercase;
   color: #00406B;
 }
+
+.pricing
+{
+  background: #2F5FB5;
+}
+.pricing-content h2
+{
+  color: #FFFFFF;
+}
+.pricing-content p
+{
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.pricing-rate__content__box
+{
+  padding: 30px 70px;
+  background: #113F96;
+  border-radius: 10px;
+}
+.pricing-rate__amount
+{
+  margin: 0 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.pricing-rate__amount h1
+{
+  color: #FFFFFF;
+}
+.pricing-rate__amount p
+{
+  font-size: 18px;
+  color: #FFFFFF;
+}
+.pricing-rate__arrow i
+{
+  color: #FFFFFF;
+  font-size: 35px;
+}
+
+.pricing-rate__table tr td
+{
+  background: rgb(58 108 196);
+  padding: 20px 15px;
+  color: #FFFFFF;
+}
+.pricing-rate__table tr td i
+{
+  font-size: 20px;
+  color: #48b9e1;
+  margin-right: 15px;
+}
+
+.get-appointment
+{
+  padding: 70px 0;
+  text-align: center;
+  background: #FC8C8D;
+}
+.get-appointment__header h2
+{
+  color: #FFFFFF;
+  margin-bottom: 35px;
+}
+.get-appointment__button button
+{
+  padding: 15px 25px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  background: #C6F7E7;
+  color: #1D608D;
+}
