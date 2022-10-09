@@ -6964,7 +6964,7 @@ https://www.phpied.com/delay-loading-your-print-css/
 .home-top
 {
   background: #E8EFFA;
-  height: 100vh;
+  height: 720px;
 }
 .home-top__header
 {
@@ -7041,4 +7041,106 @@ https://www.phpied.com/delay-loading-your-print-css/
     top: -48px;
     position: relative;
   }
+}
+
+.treatment
+{
+  background: #F8FAFC;
+}
+.treatment-contain
+{
+  padding: 180px 0px;
+}
+
+.treatment-contain__heading h3
+{
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 7rem;
+}
+
+.treatment-contain__box
+{
+  width: 200px;
+  height: 250px;
+  background: #FFFFFF;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.treatment-contain__box h6
+{
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+@media only screen and (max-width: 479px){
+  .treatment-contain
+  {
+    padding: 70px 0px;
+  }
+  .treatment-contain__boxContainer
+  {
+    flex-direction: column;
+    align-items: center;
+  }
+  .treatment-contain__box
+  {
+    margin-bottom: 30px;
+  }
+}
+
+.free_account button
+{
+  background: #000000;
+  border: none;
+  border-radius: 25px;
+  color: #FFFFFF;
+  padding: 15px 15px;
+}
+
+.comparison_table_content table tr th
+{
+  border-bottom: 1px solid #6D91AA;
+  padding: 15px 50px;
+  color: #00406B;
+}
+.comparison_table_content table tr td:nth-child(1)
+{
+  padding: 18px 0;
+  padding-right: 100px;
+  border-bottom: 1px solid #E8F5FF;
+  text-align: initial;
+}
+.comparison_table_content table tr td
+{
+  padding: 18px 0;
+  border-bottom: 1px solid #E8F5FF;
+  text-align: center;
+  color: #00406B;
+  font-weight: 500;
+}
+.comparison_table_content table tr td .fa-check
+{
+  padding: 10px;
+  border-radius: 100%;
+  background: #8DEDCF;
+  color: #00406B;
+}
+.comparison_table_content table tr td .fa-times
+{
+  padding: 10px 12px;
+  border-radius: 100%;
+  background: #FC8C8D;
+  color: #00406B;
+}
+.comparison_table .title2 p
+{
+  position: relative;
+  width: 502px;
+  left: 28%;
 }
