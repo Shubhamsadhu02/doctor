@@ -7145,6 +7145,23 @@ https://www.phpied.com/delay-loading-your-print-css/
   width: 502px;
   left: 28%;
 }
+@media only screen and (max-width: 479px){
+  .comparison_table .title2 p
+  {
+    width: 340px;
+    left: 0;
+  }
+  .comparison_table_content table tr th
+  {
+    padding: 0px 5px;
+  }
+  .comparison_table_content table tr td,
+  .comparison_table_content table tr td:nth-child(1)
+  {
+    padding: 10px 0;
+    padding-right: 0px;
+  }
+}
 
 
 .board-certified__content
