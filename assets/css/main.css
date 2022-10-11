@@ -7221,16 +7221,16 @@ https://www.phpied.com/delay-loading-your-print-css/
   margin-right: 15px;
 }
 
-.get-appointment
+.get-appointment,
+.quote
 {
-  padding: 70px 0;
   text-align: center;
   background: #FC8C8D;
 }
-.get-appointment__header h2
+.get-appointment__header h2,
+.quote-text h2
 {
   color: #FFFFFF;
-  margin-bottom: 35px;
 }
 .get-appointment__button button
 {
@@ -7286,4 +7286,15 @@ https://www.phpied.com/delay-loading-your-print-css/
 .telemedicines-source--code
 {
   margin-top: 50px;
+}
+
+.about-us__certifications h2,
+.about-us__educations h2
+{
+  color: #00406B;
+}
+.about-us__certifications h6,
+.about-us__educations h6
+{
+  color: #0e76a8;
 }
