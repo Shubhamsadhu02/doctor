@@ -7255,11 +7255,6 @@ https://www.phpied.com/delay-loading-your-print-css/
   box-shadow: 9px 14px 12px -8px #000000;
 }
 
-.meet_provider__header h2
-{
-  
-}
-
 .meet_provider__button button
 {
   padding: 15px 25px;
@@ -7274,4 +7269,21 @@ https://www.phpied.com/delay-loading-your-print-css/
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.telemedicines_box
+{
+  border: 1px solid #808080;
+  padding: 30px;
+  height: 520px;
+}
+
+.telemedicines-source--code a
+{
+  color: #768495;
+  margin-top: 50px;
+}
+.telemedicines-source--code
+{
+  margin-top: 50px;
 }
