@@ -7242,3 +7242,36 @@ https://www.phpied.com/delay-loading-your-print-css/
   background: #C6F7E7;
   color: #1D608D;
 }
+
+.meet_provider
+{
+  background: #E9ECF9;
+}
+
+.meet_provider__img img
+{
+  border: 10px solid #FFFFFF;
+  border-radius: 100%;
+  box-shadow: 9px 14px 12px -8px #000000;
+}
+
+.meet_provider__header h2
+{
+  
+}
+
+.meet_provider__button button
+{
+  padding: 15px 25px;
+  border: none;
+  background: #000000;
+  color: #FFFFFF;
+  border-radius: 25px;
+}
+
+.featured_us_images .col-lg-3
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
