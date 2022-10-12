@@ -1,13 +1,6 @@
 /***************************************************
 ================ Master Stylesheet =================
 ====================================================
-Template Name: HounLare
-Template URL: https://oilytheme.net/demo-html/2021/003/preview/index.html
-Description: HounLare is a stunning, professional, and flexible Health, Medical, Hospital, And Clinic multi-purpose HTML5 Template.
-Author: OilyTheme
-Author URL: https://themeforest.net/user/oilytheme
-Version: 1.0
-****************************************************/
 /***************************************************
 =================== CSS INDEX ======================
 ====================================================
@@ -3107,9 +3100,9 @@ i[class*=" flaticon-"]:before {
       .service2__item:hover .service2__thumb i {
         color: #fff; }
   .service2__thumb {
-    background: #ffd9db;
-    width: 90px;
-    height: 90px;
+    /* background: #ffd9db; */
+    width: 120px;
+    height: 120px;
     border-radius: 100%;
     margin: 0px auto 22px;
     line-height: 90px;
@@ -7272,7 +7265,7 @@ https://www.phpied.com/delay-loading-your-print-css/
 {
   border: 1px solid #808080;
   padding: 30px;
-  height: 520px;
+  min-height: 520px;
 }
 
 .telemedicines-source--code a
@@ -7330,3 +7323,19 @@ https://www.phpied.com/delay-loading-your-print-css/
       border: 0px;
       overflow: hidden;
       margin: 0px; }
+      .telemedicines-header{
+        padding-bottom: 40px;
+      }
+      .telemedicines_image {
+        width: 120px;
+        height: 120px;
+        border: 1px solid rgba(1,1,1,0.3);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        margin: 0 auto;
+        margin-top: -86px;
+        background: #fff;
+        margin-bottom: 40px;
+    }
