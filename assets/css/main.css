@@ -486,27 +486,7 @@ button {
   color: #223645;
   font-weight: bold; }
 
-.mapouter {
-  position: relative;
-  width: 100%;
-  height: 700px; }
-  @media only screen and (max-width: 991px) {
-    .mapouter {
-      height: 500px; } }
-  @media only screen and (max-width: 575px) {
-    .mapouter {
-      height: 400px; } }
-  .mapouter .gmap_canvas {
-    overflow: hidden;
-    background: none !important;
-    height: 100%;
-    width: 100%; }
-    .mapouter .gmap_canvas iframe {
-      width: 100%;
-      height: 100%;
-      border: 0px;
-      overflow: hidden;
-      margin: 0px; }
+
 
 /*! #######################################################################
 	MeanMenu 2.0.7
@@ -7315,3 +7295,38 @@ https://www.phpied.com/delay-loading-your-print-css/
 {
   color: #0e76a8;
 }
+
+.contact-top
+{
+  background: #E8EFFA;
+}
+
+.contact-address h5,
+.contact-hours h5,
+.contact-phone h5,
+.contact-fax h5
+{
+  color: #696C71;
+}
+
+.mapouter {
+  position: relative;
+  width: 100%;
+  height: 400px; }
+  @media only screen and (max-width: 991px) {
+    .mapouter {
+      height: 500px; } }
+  @media only screen and (max-width: 575px) {
+    .mapouter {
+      height: 300px; } }
+  .mapouter .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%; }
+    .mapouter .gmap_canvas iframe {
+      width: 100%;
+      height: 100%;
+      border: 0px;
+      overflow: hidden;
+      margin: 0px; }
